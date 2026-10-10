@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+  padding: 30px;
+  background-color:rgb(2, 2, 41);
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: rgb(3, 15, 67);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color:white;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 12px;
+  border-bottom: 1px solid #052f5f;
+  text-align: left;
+}
+
+th {
+  background: #040271;
+  color:rgb(225, 228, 229);
+}
+
+.actions {
+  display: flex;
+  gap: 5px;
+}
+.edit-btn{
+  background-color:rgb(4, 244, 4);
+  color:white;
+}
+.edit-btn:hover{
+  background-color:rgb(7, 71, 7);
+}
+.delete-btn{
+  background-color:red;
+  color:white;
+}
+.delete-btn:hover{
+  background-color:rgb(70, 3, 3);
+}
+.add-btn{
+  background-color:green;
+  color:white;
+}
+.college-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  padding: 15px 20px;
+  margin-bottom: 25px;
+  background: #eaf2ff;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.college-header img {
+  width: 65px;
+  height: 65px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.college-info h1 {
+  margin: 0;
+  color: #12366b;
+  font-size: 20px;
+}
+
+.college-info p {
+  margin: 6px 0 0;
+  color: #444;
+  font-size: 14px;
+}
